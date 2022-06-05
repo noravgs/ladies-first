@@ -7,20 +7,28 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <div>
-        <h1>Female Rap <strong>Bangers Only!</strong></h1>
+    <div id="main">
+        <h1>Female Rap <strong>Bangerz Only!</strong></h1>
         <label>Enter Artist:</label>
-        <input type="text">
-        <button>Click Me</button>
-        <video class="hide" width="560" height="315" autoplay controls loop>
-            <source src="">
-        </video>
-        <h2 class="song"></h2>
-        <p id="lyric"></p>
-        <h2 id="name"></h2>
-        <h3 id="location"></h3>
-        <h3 id="dob"></h3>
-        <h3 id="age"></h3>
+        <div id="search">
+            <input type="text">
+            <button>Click Me</button>
+        </div>
+        <div id="content">
+            <div id="column1">
+                <h2 id="name"></h2>
+                <h3 id="location"></h3>
+                <h3 id="dob"></h3>
+                <h3 id="age"></h3>
+            </div>
+            <video class="hide" width="560" height="315" autoplay controls loop>
+                <source src="">
+            </video>
+            <div id="column2">
+                <h2 class="song"></h2>
+                <p id="lyric"></p>
+            </div>
+        </div>
     </div>
 
     <script src='js/main.js'></script>
