@@ -18,7 +18,7 @@ body{
     margin:0;
     box-sizing: border-box;
     background-color: var(--color-primary);
-    background-image: url('pexels-mo-9002742.jpg');
+    background-image: url('images/pexels-mo-9002742.jpg');
     background-size: cover;
     color: var(--font-color);
 }
@@ -29,7 +29,7 @@ body{
     align-items: center;
 }
 #content{
-    background-image: url('cardcover3.png');
+    background-image: url('images/cardcover3.png');
     background-size: cover;
     display:flex;
     flex-direction: row;
