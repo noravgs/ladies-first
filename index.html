@@ -7,22 +7,21 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Female Rap <strong>Bangers Only!</strong></h1>
-    <label>Enter artist name:</label>
-    <input type="text">
-    <button>Click Me</button>
-    <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/bMknfKXIFA8" title="YouTube video player" 
-        frameborder="0" 
-        allowfullscreen>
-    </iframe>
-    <h2 class="song"></h2>
-    <p id="lyric"></p>
-    <h3 id="location"></h3>
-    <h3 id="dob"></h3>
-    <h3 id="age"></h3>
+    <div>
+        <h1>Female Rap <strong>Bangers Only!</strong></h1>
+        <label>Enter Artist:</label>
+        <input type="text">
+        <button>Click Me</button>
+        <video class="hide" width="560" height="315" autoplay controls loop>
+            <source src="">
+        </video>
+        <h2 class="song"></h2>
+        <p id="lyric"></p>
+        <h2 id="name"></h2>
+        <h3 id="location"></h3>
+        <h3 id="dob"></h3>
+        <h3 id="age"></h3>
+    </div>
 
     <script src='js/main.js'></script>
 </body>
