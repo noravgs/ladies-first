@@ -2,12 +2,25 @@ html{
     font-size:62.5%;
 }
 body{
+    --color-primary: #9192EE;
+    --color-primary-dark: #007f67;
+    --footer-color: #d6d7f3;
+    --font-color: #3b0086;
+    --border-radius: 7px;
+    
+  
+    margin: 0;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+
     margin:0;
     box-sizing: border-box;
-    background-color: #9192EE;
+    background-color: var(--color-primary);
     background-image: url('pexels-mo-9002742.jpg');
     background-size: cover;
-    color:#3b0086;
+    color: var(--font-color);
 }
 #main{
     display: flex;
@@ -16,6 +29,8 @@ body{
     align-items: center;
 }
 #content{
+    background-image: url('cardcover3.png');
+    background-size: cover;
     display:flex;
     flex-direction: row;
     justify-content: center;
@@ -27,34 +42,37 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items:center;
-    /* color:#8447ff; */
     height:100%;
 }
 #column1{
     justify-content: flex-start;
 }
 #column2{
-    padding-left: 5%;
+    padding: 5%;
     width:25%;
 }
-strong{
-    font-weight: bold;
-}
+
+
 label{
     font-size: 2.5rem;
 }
+
 h2, h3{
     margin:0;
     font-weight: 100;
 }
+
 h3{
     font-size:1.8rem;
+    color: var(--color-primary)
 }
+
 h1{
-    font-weight: 100;
+    font-weight: bold;
+    font-weight: 400;
     font-size: 4rem;
     margin-bottom:0.5em;
-    opacity: 0.9;
+    
 }
 #search{
     display: flex;
@@ -76,29 +94,51 @@ button{
     width:7em;
     height:2.1em;
     font-size: 1.75em;
-    color:#9192EE;
-    background-color: #3b0086;
+    color: var(--color-primary);
+    background-color: var(--font-color);
     border-radius: 0 1em 1em 0;
 }
 .song{
     font-weight: 100;
     font-size: 2rem;
+    color: var(--color-primary);
 }
 p{
     font-size: 1.75rem;
-    text-align: center;
-    font-style: italic;
+    text-align: left;
+    color: var(--font-color);
+    
 }
 #name{
     font-size:2.75rem;
     font-weight: bold;
     letter-spacing: 0.025em;
+    color: var(--font-color);
 }
 video{
     opacity: 0.92;
     border-radius: 1em;
-    /* border:#EBAAEA 5px solid; */
+    
 }
 .hide{
     display: none;
+}
+
+a, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+footer *{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    color: var(--footer-color);
+    font-size: 1.75rem;
+    letter-spacing: 0.025em;
+    margin: 10px;
+
+    
+
 }
