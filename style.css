@@ -4,12 +4,38 @@ html{
 body{
     margin:0;
     box-sizing: border-box;
+    background-color: #9192EE;
+    background-image: url('pexels-mo-9002742.jpg');
+    background-size: cover;
+    color:#3b0086;
 }
-div{
+#main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#content{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#column1, #column2{
+    width:30%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    /* color:#8447ff; */
+    height:100%;
+}
+#column1{
+    justify-content: flex-start;
+}
+#column2{
+    padding-left: 5%;
+    width:25%;
 }
 strong{
     font-weight: bold;
@@ -27,9 +53,32 @@ h3{
 h1{
     font-weight: 100;
     font-size: 4rem;
+    margin-bottom:0.5em;
+    opacity: 0.9;
+}
+#search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 1em 0 2em 0;
 }
 input{
     text-indent: 1em;
+    display: inline;
+    height:2em;
+    font-size: 1.5em;
+    border-radius: 1em 0 0 1em;
+    background-color: transparent;
+}
+button{
+    display:inline;
+    width:7em;
+    height:2.1em;
+    font-size: 1.75em;
+    color:#9192EE;
+    background-color: #3b0086;
+    border-radius: 0 1em 1em 0;
 }
 .song{
     font-weight: 100;
@@ -44,6 +93,11 @@ p{
     font-size:2.75rem;
     font-weight: bold;
     letter-spacing: 0.025em;
+}
+video{
+    opacity: 0.92;
+    border-radius: 1em;
+    /* border:#EBAAEA 5px solid; */
 }
 .hide{
     display: none;
