@@ -7,6 +7,7 @@ async function apiRequest(){
         const data = await response.json()
 
         console.log(data)
+
         document.querySelector('video').classList = ""
         document.querySelector('#name').innerText = data.name
         document.querySelector('p').innerText = `" ${data.lyric} "`
