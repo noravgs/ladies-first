@@ -97,6 +97,7 @@ button{
     color: var(--color-primary);
     background-color: var(--font-color);
     border-radius: 0 1em 1em 0;
+    cursor:pointer;
 }
 .song{
     font-weight: 100;
