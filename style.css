@@ -132,6 +132,7 @@ a, li{
 }
 a:hover{
     color:#3b0086;
+    font-weight: bold;
 }
 
 footer *{
